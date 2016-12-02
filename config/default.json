@@ -1,0 +1,8 @@
+{
+    "mongo": {
+        "host": "localhost",
+        "name": "fuelApp",
+        "user": "fuelApp",
+        "pass": "fuelApp"
+    }
+}

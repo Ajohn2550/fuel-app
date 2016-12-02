@@ -1,0 +1,22 @@
+{
+  "name": "fuel-app",
+  "version": "1.0.0",
+  "description": "Fuel tracking app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajohn2550/fuel-app.git"
+  },
+  "author": "ajohn2550",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ajohn2550/fuel-app/issues"
+  },
+  "homepage": "https://github.com/Ajohn2550/fuel-app#readme",
+  "dependencies": {
+    "config": "^1.24.0"
+  }
+}
