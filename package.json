@@ -4,6 +4,9 @@
   "description": "Fuel tracking app",
   "main": "index.js",
   "scripts": {
+    "eslint": "godaddy-js-style-eslint -c .eslintrc lib/ test/",
+    "jscs": "godaddy-js-style-jscs lib/ test/",
+    "lint": "godaddy-js-style-lint lib/ test/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +21,13 @@
   "homepage": "https://github.com/Ajohn2550/fuel-app#readme",
   "dependencies": {
     "config": "^1.24.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "godaddy-style": "^3.1.6",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.6",
+    "typings": "^2.0.0"
   }
 }
