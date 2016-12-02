@@ -4,10 +4,11 @@
   "description": "Fuel tracking app",
   "main": "index.js",
   "scripts": {
+    "cover": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -- test/**/*",
     "eslint": "godaddy-js-style-eslint -c .eslintrc lib/ test/",
     "jscs": "godaddy-js-style-jscs lib/ test/",
     "lint": "godaddy-js-style-lint lib/ test/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint && npm run cover"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,10 @@
   },
   "homepage": "https://github.com/Ajohn2550/fuel-app#readme",
   "dependencies": {
-    "config": "^1.24.0"
+    "body-parser": "^1.15.2",
+    "config": "^1.24.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
