@@ -3,6 +3,7 @@
         "port": 8080
     },
     "mongo": {
+        "uri": "mongodb://localhost/fule-app-dev",
         "host": "localhost",
         "name": "fuelApp",
         "user": "fuelApp",
